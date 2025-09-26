@@ -39,6 +39,7 @@ export type AllProvidersSettings =
   | ProviderExtension<'facebook', None>
   | ProviderExtension<'threads', None>
   | ProviderExtension<'mastodon', None>
+  | ProviderExtension<'mastodon2', None>
   | ProviderExtension<'bluesky', None>
   | ProviderExtension<'wrapcast', None>
   | ProviderExtension<'telegram', None>
@@ -70,6 +71,7 @@ export const allProviders = (setEmpty?: any) => {
     { value: setEmpty, name: 'facebook' },
     { value: setEmpty, name: 'threads' },
     { value: setEmpty, name: 'mastodon' },
+    { value: setEmpty, name: 'mastodon2' },
     { value: setEmpty, name: 'bluesky' },
     { value: setEmpty, name: 'wrapcast' },
     { value: setEmpty, name: 'telegram' },
