@@ -16,6 +16,7 @@ import ThreadsProvider from '@gitroom/frontend/components/new-launch/providers/t
 import DiscordProvider from '@gitroom/frontend/components/new-launch/providers/discord/discord.provider';
 import SlackProvider from '@gitroom/frontend/components/new-launch/providers/slack/slack.provider';
 import MastodonProvider from '@gitroom/frontend/components/new-launch/providers/mastodon/mastodon.provider';
+import Mastodon2Provider from '@gitroom/frontend/components/new-launch/providers/mastodon/mastodon.provider';
 import BlueskyProvider from '@gitroom/frontend/components/new-launch/providers/bluesky/bluesky.provider';
 import LemmyProvider from '@gitroom/frontend/components/new-launch/providers/lemmy/lemmy.provider';
 import WarpcastProvider from '@gitroom/frontend/components/new-launch/providers/warpcast/warpcast.provider';
@@ -106,6 +107,10 @@ export const Providers = [
   {
     identifier: 'mastodon',
     component: MastodonProvider,
+  },
+  {
+    identifier: 'mastodon2',
+    component: Mastodon2Provider,
   },
   {
     identifier: 'bluesky',
